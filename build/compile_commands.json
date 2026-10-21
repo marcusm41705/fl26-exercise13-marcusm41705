@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qt_shared_deque_1.dir/qt_shared_deque_1.cpp.o -c /mnt/qt_shared_deque_1.cpp",
+  "file": "/mnt/qt_shared_deque_1.cpp",
+  "output": "CMakeFiles/qt_shared_deque_1.dir/qt_shared_deque_1.cpp.o"
+},
+{
+  "directory": "/mnt/build",
+  "command": "/usr/bin/clang++ -DQT_CORE_LIB -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -g -std=gnu++17 -fPIC -o CMakeFiles/qt_shared_deque_2.dir/qt_shared_deque_2.cpp.o -c /mnt/qt_shared_deque_2.cpp",
+  "file": "/mnt/qt_shared_deque_2.cpp",
+  "output": "CMakeFiles/qt_shared_deque_2.dir/qt_shared_deque_2.cpp.o"
+}
+]

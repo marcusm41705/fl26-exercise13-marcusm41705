@@ -10,16 +10,24 @@ int main(int argc, char *argv[])
 
   buffer.create(100);
 
-  while(true){
-    if(buffer.getCount() == 0){
+  while(buffer.getCount() < 100){
+   
       //int value = 3;
       int value;
       std::cout << "$>";
-      std::cin >> value;
-      buffer.enqueue(value);
-      std::cout << "Enqueued: " << value << std::endl;
-      break;
-    }
+      if(!(std::cin >> value)){
+        break;
+      }
+      if(buffer.enqueue(value)){
+       std::cout << "Enqueued: " << value << std::endl;
+      } else {
+        std::cout << "Buffer is full." <<std::endl;
+        break;
+      }
+      
+      
+      
+    
   }
 
   return 0;
